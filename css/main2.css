@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/*--NAV BAR---*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #fff;
+
+}
+
+.navbar-brand img
+{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-nav li
+{
+    
+    margin: 0 0 0 auto;
+}
+.navbar-nav li
+{
+    float: right;
+    text-align: center;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #21aaaa!important;
+    
+}
+
+
+.navbar-toggler
+{
+    border: none!important;
+    
+
+}
+.navbar-nav
+{
+    background-color: #fff;
+    position: relative ;
+    width: 100%;
+    text-align: center; 
+    margin: 0px;
+    
+
+}
+.navbar-collapse{
+    margin-bottom: 0px !important;
+}
+
+.collapse .nav-link
+{
+    
+    background-color: #fff;
+    background-size: cover;
+    text-align: center;
+    
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+
+}

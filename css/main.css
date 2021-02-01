@@ -1,0 +1,460 @@
+
+#nav-bar
+{
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #fff;
+
+}
+
+.navbar-brand img
+{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-nav li
+{
+    
+    margin: 0 0 0 auto;
+}
+.navbar-nav li
+{
+    float: right;
+    text-align: center;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #21aaaa!important;
+    
+}
+
+
+.navbar-toggler
+{
+    border: none!important;
+    
+
+}
+.navbar-nav
+{
+    background-color: #fff;
+    position: relative ;
+    width: 100%;
+    text-align: center; 
+    margin: 0px;
+    
+
+}
+.navbar-collapse{
+    margin-bottom: 0px !important;
+}
+
+.collapse .nav-link
+{
+    
+    background-color: #fff;
+    background-size: cover;
+    text-align: center;
+    
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+    display: block;
+}
+
+/*-----------------slider--------------------*/
+#slider
+{
+    width: 100%;
+    
+}
+.carousel-inner .item 
+
+{ transition: all 0.5s ease !important; }
+
+
+
+.carousel-caption
+{
+    top: 60%;
+    bottom: initial!important;
+    background: rgba(88, 92, 92, 0.4);
+    position: relative;
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 1000;
+    
+}
+
+.carousel-caption h5
+{
+    color:rgb(255, 255, 255);
+    font-size: 4vw;
+    
+    width: 100%;
+    
+}
+/*-----o nama---*/
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn-primary
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #555!important;
+    border: 2px solid rgb(50, 166, 168) !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+
+.about-content
+{
+    padding-top: 20px;
+    
+}
+
+#about iframe {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(1, 1);
+  
+}
+/*-----services----*/
+
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/zarulje-crnobijele.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+ /*--   background-attachment: fixed;--*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 10px;
+    margin: 10px auto 5px;
+}
+
+.services
+{
+    margin-top: 40px;
+}
+.icon 
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover
+{
+    background: rgb(50, 166, 168);
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*---zaposlenici-------------*/
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+.img-responsive
+{
+    max-width: 207px;
+    max-height: 207px;
+}
+
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content:'';
+    background: rgb(50, 166, 168);
+    display: block;
+    height: 3px;
+    width: 250px !important;
+    margin: 10px auto 5px;
+}
+
+.profile-pic
+{
+    margin-top: 25px;
+    margin-bottom: 0px;
+            
+}
+
+.profile-pic 
+{
+    opacity: 1;
+    display: block;
+    position: absolute;
+    padding: 0;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.profile-pic h2
+{
+    font-size:22px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: rgb(50, 166, 168) !important;
+}
+.profile-pic h3
+{
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.profile-pic p
+{
+    font-size: 13px;
+}
+#team .fab
+{
+    height: 25px;
+    width: 25px;
+    color: rgb(50, 166, 168) !important;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul
+{
+    padding: 0px ;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    
+
+}
+.img-box ul li
+{
+    padding-top: 5px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
+/*--SURADNICI---*/
+
+#suradnici h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #efefef !important;
+}
+
+#suradnici h1::after
+{
+    content: '';
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 330px;
+    margin: 10px auto 5px;
+}
+
+#suradnici{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5   )), url(images/architecture-bridge-brooklyn-bridge-1770812.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+  /*--  background-attachment: fixed;--*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#suradnici h2{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/*----------promo--------*/
+#promo
+{   
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/construction-plans-architectural-project_1232-2918.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+   /*-- background-attachment: fixed;--*/
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 38px;
+    transform: scale(1, 1);
+}
+
+#promo h1
+{
+    color: #efefef!important;
+}
+
+#promo h1::after
+{
+    content:'';
+    background: rgb(50, 166, 168);
+    display: block;
+    height: 3px;
+    width: 500px;
+    margin: 10px auto 5px;
+}
+
+
+#promo .btn-primary
+{
+    background: transparent!important;
+    border: 2px solid rgb(50, 166, 168) !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+.form-control
+{ 
+        margin: 15px;
+        border: none !important;
+}
+
+::placeholder
+{
+    color: #999 !important;
+}
+
+.follow
+{
+    
+    padding: 0px;
+    margin: 15px;
+    font-size: 15px;
+    text-align: left;
+    margin-right: 20px;
+    
+}
+.contact-form
+{
+    transform: scale(0.9,0.9);
+}
+.contact-info .fab
+{
+    margin: 15px;
+    color: rgb(50, 166, 168);
+    font-weight: bold;
+}
+
+/*------logo i suradnici---------*/
+
+.logo-pic img
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    opacity: 1;
+    display: table;
+    position: relative;
+  
+}
+.logo-pic h2
+{
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.logo-pic p
+{
+    font-size:15px;
+    
+    margin-top: 0px;
+}
+.logo-pic .img-box img
+{
+    margin-bottom: 0px;
+}
+
+
+/*-------------------------footer-------------*/
+
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+
+}
+
+.fa-heart
+{
+    color: red;
+    margin: 3px;
+}
+
